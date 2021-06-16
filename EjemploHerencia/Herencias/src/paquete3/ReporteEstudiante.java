@@ -47,12 +47,12 @@ public class ReporteEstudiante extends Reporte {
         String cadena = String.format("%s El reporte de Estudiantes es:\n",
                 super.toString());
         for (int i = 0; i < lista.size(); i++) {
-            cadena = String.format("%s - %s %s - %.2f\n", cadena,
+            cadena = String.format("%s %s %s  %.2f\n", cadena,
                     getLista().get(i).getNombre(),
                     getLista().get(i).getApellido(),
                     getLista().get(i).getMatricula());
         }
-        cadena = String.format("%s El Promedio de las matrículas son: %.2f"
+        cadena = String.format("%sEl Promedio de las matrículas son: %.2f"
                 , cadena,getPromedioMartriculas());
         return cadena;
     }

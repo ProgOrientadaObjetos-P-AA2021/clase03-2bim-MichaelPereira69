@@ -7,35 +7,38 @@ package herencias2;
 
 /**
  *
- * @author memaldonado28
+ * @author josef
  */
-class Docente extends Persona {
+public class Docente extends Persona {
 
     private double sueldo;
 
-    public Docente(String n, String a, int e, double mat) {
+    public Docente(String n, String a, int e, double sueld) {
         super(n, a, e);
-        setSueldo(mat);
+        setSueldo(sueld);
     }
 
-  public void setSueldo(double s){
-        if(s < 1000){
+//    @Override
+//    public void setNombre(String n) {
+//        nombre = n.toUpperCase();
+//    }
+
+    public void setSueldo(double sueld) {
+        if (sueld < 1000) {
             sueldo = 1000;
-        }else{
-            sueldo = s;
+        } else {
+            sueldo = sueld;
         }
-        
     }
-    
-    public double  setSueldo(){
-        
+
+    public double getSueldo() {
         return sueldo;
     }
-    
+
     @Override
-    public String toString(){
-        
-        return String.format("%s - %.2f", super.toString(),
-                setSueldo());
+    public String toString() {
+
+        return String.format("%s - %.2f", super.toString(), getSueldo());
     }
+
 }

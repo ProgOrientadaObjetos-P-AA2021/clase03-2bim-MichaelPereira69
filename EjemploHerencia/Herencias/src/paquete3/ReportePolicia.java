@@ -47,7 +47,7 @@ public class ReportePolicia extends Reporte {
         String cadena = String.format("%sEl reporte de policias son:\n",
                 super.toString());
         for (int i = 0; i < lista.size(); i++) {
-            cadena = String.format("%s - %s %s - %d\n", cadena,
+            cadena = String.format("%s %s %s %d\n", cadena,
                     getLista().get(i).getNombre(),
                     getLista().get(i).getApellido(),
                     getLista().get(i).getEdad());

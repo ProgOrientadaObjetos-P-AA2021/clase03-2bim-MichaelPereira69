@@ -5,7 +5,7 @@
  */
 package paquete3;
 
-import herencias2.*;
+import herencias2.Docente;
 import java.util.ArrayList;
 /**
  *
@@ -48,7 +48,7 @@ public class ReporteDocente extends Reporte {
         String cadena = String.format("%sEl Reporte de Estudiantes es:\n",
                 super.toString());
         for (int i = 0; i < lista.size(); i++) {
-            cadena = String.format("%s - %s %s - %.2f\n", cadena,
+            cadena = String.format("%s %s %s %.2f\n", cadena,
                     getLista().get(i).getNombre(),
                     getLista().get(i).getApellido(),
                     getLista().get(i).getSueldo());

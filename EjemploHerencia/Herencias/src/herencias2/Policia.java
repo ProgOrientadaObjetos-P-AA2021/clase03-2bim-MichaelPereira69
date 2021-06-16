@@ -3,33 +3,39 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package herencias2;
 
 /**
- *
- * @author memaldonado28
+ * 
+ * @author josef
  */
-class Policia extends Persona {
-      private double rango;
+public class Policia extends Persona{
     
-    public Policia(String n, String a, int e, double Rang){
+    private String rango;
+    
+    public Policia(String n, String a, int e, String ran){
         super(n, a, e);
-        setRango(Rang);
+        setRango(ran);
     }
     
-    public void setRango(double ed){
-        rango = ed;
+//    @Override
+//    public void setNombre(String n){
+//        nombre = n.toUpperCase();    
+//    }
+    
+    public void setRango(String r){
+        rango = r;
     }
     
-    
-    public double getRango(){
+    public String getRango(){
         return rango;
     }
     
-      @Override
+    @Override
     public String toString(){
-        
-        return String.format("%s - %s", super.toString(),
-                getRango());
+    
+        return String.format("%s - %s", super.toString(), getRango());
     }
+
 }

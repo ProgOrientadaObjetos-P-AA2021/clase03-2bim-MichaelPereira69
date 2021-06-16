@@ -22,7 +22,7 @@ public class Persona {
         setEdad(e);
     }
     
-    public void setNombre(String n){
+   public void setNombre(String n){
         nombre = n;
     }
     
@@ -54,3 +54,4 @@ public class Persona {
     
     
 }
+ 
