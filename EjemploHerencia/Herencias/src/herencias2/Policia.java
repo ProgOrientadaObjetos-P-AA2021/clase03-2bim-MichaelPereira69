@@ -5,10 +5,9 @@
  */
 
 package herencias2;
-
 /**
- * 
- * @author josef
+ *
+ * @author memaldonado28
  */
 public class Policia extends Persona{
     

@@ -4,10 +4,9 @@
  * and open the template in the editor.
  */
 package herencias2;
-
 /**
  *
- * @author josef
+ * @author memaldonado28
  */
 public class Docente extends Persona {
 

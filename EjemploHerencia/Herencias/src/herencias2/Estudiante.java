@@ -4,11 +4,9 @@
  * and open the template in the editor.
  */
 package herencias2;
-
-
 /**
  *
- * @author reroes
+ * @author memaldonado28
  */
 public class Estudiante extends Persona{
     private double matricula;
