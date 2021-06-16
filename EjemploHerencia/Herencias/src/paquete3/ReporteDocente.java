@@ -45,7 +45,7 @@ public class ReporteDocente extends Reporte {
 
     @Override
     public String toString() {
-        String cadena = String.format("%sEl Reporte de Estudiantes es:\n",
+        String cadena = String.format("%s El Reporte de Estudiantes es:\n",
                 super.toString());
         for (int i = 0; i < lista.size(); i++) {
             cadena = String.format("%s %s %s %.2f\n", cadena,
@@ -53,7 +53,7 @@ public class ReporteDocente extends Reporte {
                     getLista().get(i).getApellido(),
                     getLista().get(i).getSueldo());
         }
-        cadena = String.format("%sEl promedio de Sueldos es: %.2f", cadena,
+        cadena = String.format("%s El promedio de Sueldos es: %.2f", cadena,
                 getPromedioSueldos());
         return cadena;
     }

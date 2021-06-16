@@ -27,7 +27,7 @@ public class Reporte {
 
     @Override
     public String toString() {
-        String cadena = String.format(">>>CODIGO\n", getCodigo());
+        String cadena = String.format(getCodigo());
 
         return cadena;
     }

@@ -44,7 +44,7 @@ public class ReportePolicia extends Reporte {
 
     @Override
     public String toString() {
-        String cadena = String.format("%sEl reporte de policias son:\n",
+        String cadena = String.format("%s El reporte de policias son:\n",
                 super.toString());
         for (int i = 0; i < lista.size(); i++) {
             cadena = String.format("%s %s %s %d\n", cadena,

@@ -52,7 +52,7 @@ public class ReporteEstudiante extends Reporte {
                     getLista().get(i).getApellido(),
                     getLista().get(i).getMatricula());
         }
-        cadena = String.format("%sEl Promedio de las matrículas son: %.2f"
+        cadena = String.format("%s El Promedio de las matrículas son: %.2f"
                 , cadena,getPromedioMartriculas());
         return cadena;
     }
