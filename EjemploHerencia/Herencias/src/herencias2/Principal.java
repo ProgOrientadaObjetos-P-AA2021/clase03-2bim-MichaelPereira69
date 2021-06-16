@@ -18,7 +18,7 @@ public class Principal {
      */
     public static void main(String[] args) {
         
-          Scanner entrada = new Scanner(System.in);
+   /*       Scanner entrada = new Scanner(System.in);
         System.out.println(">>>>>>> MENU <<<<<<<<<< \n");
         System.out.println("Seleccione la opccion que desea ingresar");
         System.out.println("1.- Para ingresar datos de Estudiante");
@@ -65,15 +65,14 @@ public class Principal {
 
     }
 
-}
+}*/
         
         
         
         
         
         
-        
-/*        Estudiante e = new Estudiante("René", "Elizalde", 33, 100.2);
+               Estudiante e = new Estudiante("René", "Elizalde", 33, 100.2);
         System.out.println(e);
         // Un docente hereda de una Persona y adicionalmente tiene 
         // la característia sueldo
@@ -86,5 +85,6 @@ public class Principal {
         System.out.println(p);
         
     }
-  */  
+}
+   
 
